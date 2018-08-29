@@ -1,0 +1,21 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "func host start --cors *"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-fetch": "^2.1.2",
+    "azure-functions-pack": "^1.0.0",
+    "azure-functions-typescript": "0.0.1",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}

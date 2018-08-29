@@ -1,0 +1,21 @@
+{
+  "name": "real",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "azure-functions-pack": "^1.0.0",
+    "azure-functions-typescript": "^0.0.1",
+    "node-fetch": "^2.2.0",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "lerna": "^3.2.1"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "start": "lerna run start --parallel"
+  },
+  "author": "",
+  "license": "ISC"
+}
