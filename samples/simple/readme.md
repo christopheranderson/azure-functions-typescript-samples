@@ -12,3 +12,7 @@ Only real thing to note here is that the build output is in a different director
 npm i
 npm start
 ```
+
+## VS Code
+
+This also comes with VS settings that work if you just press F5 or launch. It's configured to make debugging possible with your .ts files, so give it a shot.

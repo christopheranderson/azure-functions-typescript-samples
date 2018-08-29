@@ -15,6 +15,8 @@ npm i -g azure-functions-core-tools@core
 1. [Simple](./samples/simple)
 
    Bare bones sample showing off using `scriptFile` to reference files in a different build directory
+
+   Also shows off how to use VS Code debugging with typscript + Azure Functions
 2. [SPA](./samples/spa)
 
    Simple example to show starting a SPA side by side with a Function App
