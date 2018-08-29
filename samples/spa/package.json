@@ -13,6 +13,7 @@
     "lerna": "^3.2.1"
   },
   "scripts": {
+    "postinstall": "lerna boostrap & npm run build",
     "build": "lerna run build",
     "start": "lerna run start --parallel"
   },
