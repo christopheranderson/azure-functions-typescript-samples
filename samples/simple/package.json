@@ -1,0 +1,21 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "tsc",
+    "start": "func host start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-fetch": "^2.1.2",
+    "azure-functions-typescript": "0.0.1",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
